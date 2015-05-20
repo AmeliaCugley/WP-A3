@@ -1,0 +1,179 @@
+/*************** GENERAL ************************/
+
+#wrapper {
+	max-width:940px;
+	margin: 0 auto;
+	padding: 0 5%;
+
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Crete Round', serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+	font-family: 'Crete Round', serif;
+}
+
+/*************** HEADING *************************/
+
+header {
+	float:left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Chewy', cursive;
+	margin: 15px 0;
+	font-size: 3.0em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: -5px 0;
+	font-style: italic;
+}
+
+/*************** NAV *****************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0;
+	font-family: 'Crete Round', serif;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display:inline-block;
+}
+
+nav a {
+	font-weight: normal;
+	padding: 15px 10px;
+}
+
+/*************** FOOTER **************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear:both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/*************** PAGE: HOME; *********************/
+
+.movie-photo{
+	display:block;
+	max-width: 300px;
+	margin: 0 auto 30px;
+	border-radius:100%;
+	padding-top: 20px;
+}
+
+#primary {
+	 width: 45%;
+  	margin: 2.5%;
+	float: left;
+}
+
+#secondary {
+	 width: 45%;
+  	margin: 2.5%;
+	float: right;
+}
+
+/*************** PAGE: MOVIES; *******************/
+
+#gallery {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+/*************** PAGE: CONTACT US; ***************/
+
+/*************** COLOURS *************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #7D7D7D;
+}
+
+/* Green header*/
+header{
+  background: #6ab47b;
+  border-color: #599a68;
+}
+
+/* nav background of mobile devices*/
+nav {
+  background: #6ab47b;
+}
+
+/* Logo text*/
+h2, h3, p {
+  color:#7D7D7D;
+}
+
+/* links */
+a {
+  color: #fff;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link*/
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+
+
+
+
+
+
+
